@@ -9,7 +9,7 @@ from CITY
 where COUNTRYCODE='USA' and POPULATION>100000;
 ```
 
-### <시행착오>
+##### <시행착오>
 ```sql
 select *
 from CITY
