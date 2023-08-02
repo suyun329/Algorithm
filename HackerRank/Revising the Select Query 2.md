@@ -14,4 +14,4 @@ where COUNTRYCODE='USA' and POPULATION>120000;
 
 ```
 
-Status:
+Status: Nothing
