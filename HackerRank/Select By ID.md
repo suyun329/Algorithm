@@ -1,6 +1,6 @@
 <!--# SQL-->
 MySQL https://www.hackerrank.com/challenges/select-by-id/problem
-### Select All
+### Select By ID
 
 Solve
 ```sql
