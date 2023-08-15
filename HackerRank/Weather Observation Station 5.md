@@ -29,10 +29,11 @@ limit 1;
 ```
 
 Status: Wrong Answer
+<br>
 Expected Output
 Amo 3
 Marine On Saint Croix 21
-
+<br><br>
 This code Output
 Roy 3
 Marine On Saint Croix 21
