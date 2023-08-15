@@ -30,10 +30,10 @@ limit 1;
 
 Status: Wrong Answer
 <br>
-Expected Output
+Expected Output<br>
 Amo 3
 Marine On Saint Croix 21
 <br><br>
-This code Output
+This code Output<br>
 Roy 3
 Marine On Saint Croix 21
