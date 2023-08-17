@@ -17,4 +17,4 @@ OR CITY LIKE '%U';
 ```sql
 ```
 
-Status: 
+Status: Success
