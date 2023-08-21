@@ -17,4 +17,4 @@ and CITY NOT LIKE 'U%';
 ```sql
 ```
 
-Status: Susess
+Status: Success
