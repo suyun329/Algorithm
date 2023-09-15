@@ -1,33 +1,31 @@
+import sys
+input = sys.stdin.readline
+
 while True:
     T = input()
-    s = []
+    s2 = []
     if T == '.':
         break
     else:
-        for i in T:
-            if i=='[' or i==']' or i=='(' or i==')':
-                s.append(i)
-        
-        s2 = []
-        for j in s:
+        for j in T:
             #( or [
             if j=='(' or j=='[':
                 s2.append(j)
                 
             #)    
             elif j==')':
-                if s2 and s2[-1]=='(':
-                    s2.pop()
-                else:
+                if not s2 or s2[-1]=='[':
                     s2=[')']
                     break
+                else:
+                    s2.pop()
             #]        
             elif j==']':
-                if s2 and s2[-1]=='[':
-                    s2.pop()
-                else:
+                if s2 or s2[-1]=='(':
                     s2=[']']
                     break
+                else:
+                    s2.pop()
                 
         if s2:
             print('NO')
@@ -35,4 +33,4 @@ while True:
             print('YES')
 
 
-#state: wrong answer
+#state: 런타임 에러
