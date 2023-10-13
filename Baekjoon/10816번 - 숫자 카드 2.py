@@ -11,3 +11,5 @@ for i in b:
     r.append(a.count(i))
 
 print(*r, sep=' ')
+
+# 참고 https://chancoding.tistory.com/45
