@@ -7,3 +7,5 @@ k = s[-1]
 for i in range(n):
 
 print(k)
+
+# 참고 https://bio-info.tistory.com/158
