@@ -7,7 +7,7 @@ for _ in range(n):
     w.append(a)
     v.append(b)
 w.append(0)
-i=0
+# i=0
 
 for i in range(n):
     nk += w[i]
